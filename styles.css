@@ -50,7 +50,7 @@ main {
 .welcome {
    width: 100%;
    height: 90vh;
-   background-image:url(../images/mattia-faloretti-jbrR_ESWK2A-unsplash.webp);
+   background-image:url(/mattia-faloretti-jbrR_ESWK2A-unsplash.webp);
    background-size: cover;
    background-repeat: no-repeat;
    display: flex;
