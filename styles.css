@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border-collapse: collapse;
+
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+header {
+    display:flex;
+    
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    font-family: 'Anurati', sans-serif;
+                                                
+
+}
+
+.logo {
+    width: 10vh;
+    height: 15vh;
+}
+
+.nav {
+    width:50vh;
+    display: flex;
+    color: #000;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+a:hover {
+    color: #6fcf97;
+}
+
+main {
+    height: 90vh;
+    width: 100%;
+}
+
+.welcome {
+   width: 100%;
+   height: 90vh;
+   background-image:url(../images/mattia-faloretti-jbrR_ESWK2A-unsplash.webp);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.title {
+    color: white;
+    border:none;
+    font-family: 'Anurati',Georgia, 'Times New Roman', Times, serif;
+    font-size: 8em;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    position: absolute;
+    text-transform: uppercase;
+    text-shadow: 0 10px rgba(0,0,0,0.3);
+    
+
+}
+.button_1 {
+
+}
+
+.explore {
+    width: 100%;
+    height: 90vh;
+    background: red;
+}
